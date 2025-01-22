@@ -11,12 +11,19 @@ export default async function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <div className="max-w-5xl w-full items-center justify-center text-center">
-        <h1 className="text-4xl font-bold mb-8">
-          Welcome to Calendar Events App
-        </h1>
-        <LoginButton />
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
+      <div className="container mx-auto px-4 py-16">
+        <div className="max-w-md mx-auto bg-white rounded-2xl shadow-xl p-8">
+          <div className="text-center">
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">
+              Calendar Events App
+            </h1>
+            <p className="text-gray-600 mb-8 ">
+              Connect with Google Calendar to manage your schedule efficiently
+            </p>
+            <LoginButton />
+          </div>
+        </div>
       </div>
     </main>
   )
