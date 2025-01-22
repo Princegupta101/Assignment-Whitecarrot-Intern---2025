@@ -2,6 +2,10 @@
 
 A Next.js application that displays Google Calendar events with filtering capabilities.
 
+## VIDEO 
+
+https://youtu.be/46swQchnQtw
+
 ## Features
 
 - Google SSO Authentication
@@ -14,6 +18,9 @@ A Next.js application that displays Google Calendar events with filtering capabi
 ## Setup
 
 1. Clone the repository
+```bash
+git@github.com:Princegupta101/Assignment-Whitecarrot-Intern---2025.git
+```
 2. Install dependencies:
 ```bash
 npm install

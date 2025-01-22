@@ -33,7 +33,7 @@ export default function CalendarPage() {
       <header className="bg-gradient-to-r from-blue-500 to-indigo-500 shadow">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between text-white">
-            <h1 className="text-2xl font-bold">My Calendar</h1>
+            <h1 className="text-2xl font-bold text-black">My Calendar</h1>
             <DateFilter value={dateFilter} onChange={setDateFilter} />
           </div>
         </div>
